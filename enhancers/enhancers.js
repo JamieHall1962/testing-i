@@ -1,7 +1,10 @@
+// https://github.com/JamieHall1962/testing-i/pull/1
+
+
 module.exports = {
     success,
     fail,
-    repair    
+    repair
   };
 
 // create a test item
@@ -76,9 +79,9 @@ function fail(item){
     }
 
     if(item.enhancement <= 15){
-        item.enhancement = item.enhancement - 1;
+        // item.enhancement = item.enhancement - 1;
         item.durability = item.durability - 5;
-        item.name = `[${enhLevels[item.enhancement]}] ${item.originalName}`
+        item.name = `[+${enhLevels[item.enhancement]}] ${item.originalName}`
     }
    
     return item
