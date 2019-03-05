@@ -1,0 +1,16 @@
+{
+  "name": "testing-i",
+  "version": "1.0.0",
+  "description": "Testing I March 4, 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --verbose"
+  },
+  "repository": "https://github.com/JamieHall1962/testing-i.git",
+  "author": "Jamie Hall <hall.jamie@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
